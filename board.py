@@ -24,6 +24,13 @@ def display(self):
             else:
                 row_display += f"{cell}"
                 print(row_display.strip())
-                
+            print()
+
+def place_Pawn(self, x, y, Pawn):
+    if 0 <= x < self.size and 0 <= y < self.size:
+        if self.grid [y][x]is None:
+            
+
+
         
         
