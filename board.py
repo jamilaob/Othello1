@@ -16,4 +16,14 @@ class Board:
         self.grid[4][4] = Pawn('O')
     
 def display(self):
+    for row in self.grid:
+        row_display = " "
+        for cell in row: 
+            if cell is None:
+                row_display += "*"
+            else:
+                row_display += f"{cell}"
+                print(row_display.strip())
+                
+        
         
