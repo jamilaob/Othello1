@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 class Pawn:
+=======
+"""class Pawn:
+j'ai ajouté un message
+>>>>>>> fb097cacd3b27fcdd47c31c49b8ec4618371373f
     def __init__(self, color):
         self.color = color
 
