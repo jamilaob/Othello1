@@ -1,5 +1,5 @@
 """class Pawn:
-j'ai ajouter un message
+j'ai ajouté un message
     def __init__(self, color):
         self.color = color"""
 
